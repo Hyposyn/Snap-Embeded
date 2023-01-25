@@ -2684,7 +2684,6 @@ IDE_Morph.prototype.setExtent = function (point) {
     }
 
     // apply
-    IDE_Morph.uber.setExtent.call(this, ext);
     this.fixLayout();
 };
 
